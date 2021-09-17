@@ -93,7 +93,7 @@ def send_mail():
     server.ehlo()
     server.login('shubham@gmail.com', 'xxxxxxx')
 
-    subject = "The Shirt you want is below $17! Now is your chance to buy!"
+    subject = "The Shirt you want is below $15! Now is your chance to buy!"
     body = "Shubham, This is the moment we have been waiting for. Now is your chance " \
            "to pick up the shirt of your dreams. Don't mess it up! " \
            "Link here: https://www.amazon.com/dp/B00XD06PMG/ref=sspa_dk_detail_4?pd_rd_i=B00XD06PMG&pd_rd_w=D3cIG&pf_rd_p=9fd3ea7c-b77c-42ac-b43b-c872d3f37c38&pd_rd_wg=pUcId&pf_rd_r=4505MHP98ZF80XJNTQTC&pd_rd_r=eb3310dd-8f31-45e6-8ffc-f60240615e7e&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNFYyUFRSMFdMQ09TJmVuY3J5cHRlZElkPUExMDEwOTQzM1BYQjJGQ1E1UENJSSZlbmNyeXB0ZWRBZElkPUEwODE5Mzc1RDM4S0tRSTNVQjBCJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1&psc=1"
