@@ -101,7 +101,7 @@ def send_mail():
     msg = f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'shubham@gmail.com',
+        'shubham.kr2202@gmail.com',
         msg
 
     )
